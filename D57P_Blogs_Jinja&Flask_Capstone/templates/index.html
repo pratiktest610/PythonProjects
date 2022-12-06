@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Blogs</title>
+</head>
+<body>
+    <div class="header">
+        <a href="{{ url_for('home_page') }}"><h1>Blogs To Read</h1></a>
+    </div>
+
+    {% for blog in blogs: %}
+    <a href="{{ url_for('get_blog', id=blog['id']) }}">
+        <div class="blogs">
+        <h1>{{ blog["title"] }}</h1>
+        <h2>{{ blog["subtitle"] }}</h2>
+        </div>
+    </a>
+    {% endfor %}
+
+    <div class="spacer"></div>
+
+    <div class="footer">
+        <h3>Made by Pratik</h3>
+    </div>
+</body>
+</html>

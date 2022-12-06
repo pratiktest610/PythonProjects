@@ -1,0 +1,6 @@
+1 create screen
+2 turtle , move fun only
+3 cars random point, random color
+4 next level,with level written,  speedup cars
+5 collison detect, game over
+

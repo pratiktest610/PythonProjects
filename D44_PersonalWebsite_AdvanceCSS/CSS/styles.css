@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.top-container {
+    background-color: #F7F6DC;
+    padding-top: 100px;
+    font-family: 'Courgette', cursive;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 5rem;
+    margin: 0px;
+    color:  #66BFBF;
+    height: 2;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color:  #11999E;
+}
+.lower-cloud {
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+
+.upper-cloud {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+
+a {
+    color:  #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+
+}
+
+.skills {
+
+}
+.skillrow {
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 100px;
+    line-height: 2;
+    
+}
+
+.python {
+    float: left;
+    margin-right: 2rem;
+}
+
+.webdev {
+    float: right;
+    margin-left: 2rem;
+}
+
+
+hr {
+    border: None;
+    border-top: dotted;
+    border-width: 15px;
+    width: 10%;
+    margin: 30px auto 30px auto;
+    color: #90B77D;
+}
+
+.bottom-container {
+    padding: 30px;
+    background-color: #F7F6DC;
+}
+
+.footer-link {
+    margin: 0px 30px;
+}
+
+.btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb,  #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb,  #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb,  #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb,  #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb,  #2bc4ad);
+    text-decoration: none;
+  }
+
+.contact-me {
+    padding-bottom: 80px;
+}
+
+.hellopara {
+    font-weight: bold;
+    width: 25%;
+    margin: auto;
+}
+
+.contact-para {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.middle-container {
+    padding: 100px 0px;
+}
